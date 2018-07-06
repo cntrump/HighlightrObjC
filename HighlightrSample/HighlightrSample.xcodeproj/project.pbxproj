@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7304E0BC20EF1667001EB208 /* Highlightr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 730F900C20EEF66C0061A727 /* Highlightr.framework */; };
+		7304E0BF20EF28E2001EB208 /* sampleCode.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7304E0BE20EF28E2001EB208 /* sampleCode.txt */; };
+		730F8FF220EEF6610061A727 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 730F8FF120EEF6610061A727 /* AppDelegate.m */; };
+		730F8FF520EEF6610061A727 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 730F8FF420EEF6610061A727 /* ViewController.m */; };
+		730F8FFA20EEF6630061A727 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 730F8FF920EEF6630061A727 /* Assets.xcassets */; };
+		730F900020EEF6630061A727 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 730F8FFF20EEF6630061A727 /* main.m */; };
+		730F901420EEF6CA0061A727 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 730F901320EEF6C90061A727 /* JavaScriptCore.framework */; };
+		730F902B20EEFC8E0061A727 /* ActionSheetDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 730F901920EEFC8E0061A727 /* ActionSheetDatePicker.m */; };
+		730F902C20EEFC8E0061A727 /* ActionSheetLocalePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 730F901B20EEFC8E0061A727 /* ActionSheetLocalePicker.m */; };
+		730F902D20EEFC8E0061A727 /* ActionSheetDistancePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 730F901F20EEFC8E0061A727 /* ActionSheetDistancePicker.m */; };
+		730F902E20EEFC8E0061A727 /* ActionSheetCustomPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 730F902020EEFC8E0061A727 /* ActionSheetCustomPicker.m */; };
+		730F902F20EEFC8E0061A727 /* SWActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 730F902220EEFC8E0061A727 /* SWActionSheet.m */; };
+		730F903020EEFC8E0061A727 /* ActionSheetStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 730F902420EEFC8E0061A727 /* ActionSheetStringPicker.m */; };
+		730F903120EEFC8E0061A727 /* DistancePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 730F902520EEFC8E0061A727 /* DistancePickerView.m */; };
+		730F903220EEFC8E0061A727 /* ActionSheetMultipleStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 730F902620EEFC8E0061A727 /* ActionSheetMultipleStringPicker.m */; };
+		730F903320EEFC8E0061A727 /* AbstractActionSheetPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 730F902720EEFC8E0061A727 /* AbstractActionSheetPicker.m */; };
+		730F903720EF06CC0061A727 /* Samples in Resources */ = {isa = PBXBuildFile; fileRef = 730F903620EF06CC0061A727 /* Samples */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7304E0BA20EF165A001EB208 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 730F900620EEF66C0061A727 /* HighlightrObjC.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 73FEE18620EDF067003DF635;
+			remoteInfo = Highlightr;
+		};
+		730F900B20EEF66C0061A727 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 730F900620EEF66C0061A727 /* HighlightrObjC.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 73FEE18720EDF067003DF635;
+			remoteInfo = Highlightr;
+		};
+		730F900D20EEF66C0061A727 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 730F900620EEF66C0061A727 /* HighlightrObjC.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 73D2858920EE7E2200F03700;
+			remoteInfo = "Highlightr-macOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7304E0BE20EF28E2001EB208 /* sampleCode.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sampleCode.txt; sourceTree = "<group>"; };
+		730F8FED20EEF6610061A727 /* HighlightrSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HighlightrSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		730F8FF020EEF6610061A727 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		730F8FF120EEF6610061A727 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		730F8FF320EEF6610061A727 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		730F8FF420EEF6610061A727 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		730F8FF920EEF6630061A727 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		730F8FFE20EEF6630061A727 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		730F8FFF20EEF6630061A727 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		730F900620EEF66C0061A727 /* HighlightrObjC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = HighlightrObjC.xcodeproj; path = ../Highlightr/HighlightrObjC.xcodeproj; sourceTree = "<group>"; };
+		730F901320EEF6C90061A727 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		730F901720EEFC8E0061A727 /* ActionSheetCustomPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetCustomPicker.h; sourceTree = "<group>"; };
+		730F901820EEFC8E0061A727 /* ActionSheetStringPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetStringPicker.h; sourceTree = "<group>"; };
+		730F901920EEFC8E0061A727 /* ActionSheetDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetDatePicker.m; sourceTree = "<group>"; };
+		730F901A20EEFC8E0061A727 /* SWActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWActionSheet.h; sourceTree = "<group>"; };
+		730F901B20EEFC8E0061A727 /* ActionSheetLocalePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetLocalePicker.m; sourceTree = "<group>"; };
+		730F901C20EEFC8E0061A727 /* AbstractActionSheetPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractActionSheetPicker.h; sourceTree = "<group>"; };
+		730F901D20EEFC8E0061A727 /* ActionSheetMultipleStringPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetMultipleStringPicker.h; sourceTree = "<group>"; };
+		730F901E20EEFC8E0061A727 /* DistancePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DistancePickerView.h; sourceTree = "<group>"; };
+		730F901F20EEFC8E0061A727 /* ActionSheetDistancePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetDistancePicker.m; sourceTree = "<group>"; };
+		730F902020EEFC8E0061A727 /* ActionSheetCustomPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetCustomPicker.m; sourceTree = "<group>"; };
+		730F902120EEFC8E0061A727 /* ActionSheetCustomPickerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetCustomPickerDelegate.h; sourceTree = "<group>"; };
+		730F902220EEFC8E0061A727 /* SWActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWActionSheet.m; sourceTree = "<group>"; };
+		730F902320EEFC8E0061A727 /* ActionSheetDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetDatePicker.h; sourceTree = "<group>"; };
+		730F902420EEFC8E0061A727 /* ActionSheetStringPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetStringPicker.m; sourceTree = "<group>"; };
+		730F902520EEFC8E0061A727 /* DistancePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DistancePickerView.m; sourceTree = "<group>"; };
+		730F902620EEFC8E0061A727 /* ActionSheetMultipleStringPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetMultipleStringPicker.m; sourceTree = "<group>"; };
+		730F902720EEFC8E0061A727 /* AbstractActionSheetPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractActionSheetPicker.m; sourceTree = "<group>"; };
+		730F902820EEFC8E0061A727 /* ActionSheetLocalePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetLocalePicker.h; sourceTree = "<group>"; };
+		730F902920EEFC8E0061A727 /* ActionSheetPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetPicker.h; sourceTree = "<group>"; };
+		730F902A20EEFC8E0061A727 /* ActionSheetDistancePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetDistancePicker.h; sourceTree = "<group>"; };
+		730F903620EF06CC0061A727 /* Samples */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Samples; path = ../../Samples; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		730F8FEA20EEF6610061A727 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7304E0BC20EF1667001EB208 /* Highlightr.framework in Frameworks */,
+				730F901420EEF6CA0061A727 /* JavaScriptCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		730F8FE420EEF6610061A727 = {
+			isa = PBXGroup;
+			children = (
+				730F900620EEF66C0061A727 /* HighlightrObjC.xcodeproj */,
+				730F8FEF20EEF6610061A727 /* HighlightrSample */,
+				730F8FEE20EEF6610061A727 /* Products */,
+				730F901120EEF6890061A727 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		730F8FEE20EEF6610061A727 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				730F8FED20EEF6610061A727 /* HighlightrSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		730F8FEF20EEF6610061A727 /* HighlightrSample */ = {
+			isa = PBXGroup;
+			children = (
+				7304E0BE20EF28E2001EB208 /* sampleCode.txt */,
+				730F903620EF06CC0061A727 /* Samples */,
+				730F901620EEFC8E0061A727 /* Pickers */,
+				730F8FF020EEF6610061A727 /* AppDelegate.h */,
+				730F8FF120EEF6610061A727 /* AppDelegate.m */,
+				730F8FF320EEF6610061A727 /* ViewController.h */,
+				730F8FF420EEF6610061A727 /* ViewController.m */,
+				730F8FF920EEF6630061A727 /* Assets.xcassets */,
+				730F8FFE20EEF6630061A727 /* Info.plist */,
+				730F8FFF20EEF6630061A727 /* main.m */,
+			);
+			path = HighlightrSample;
+			sourceTree = "<group>";
+		};
+		730F900720EEF66C0061A727 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				730F900C20EEF66C0061A727 /* Highlightr.framework */,
+				730F900E20EEF66C0061A727 /* Highlightr.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		730F901120EEF6890061A727 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				730F901320EEF6C90061A727 /* JavaScriptCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		730F901620EEFC8E0061A727 /* Pickers */ = {
+			isa = PBXGroup;
+			children = (
+				730F901C20EEFC8E0061A727 /* AbstractActionSheetPicker.h */,
+				730F902720EEFC8E0061A727 /* AbstractActionSheetPicker.m */,
+				730F901720EEFC8E0061A727 /* ActionSheetCustomPicker.h */,
+				730F902020EEFC8E0061A727 /* ActionSheetCustomPicker.m */,
+				730F902120EEFC8E0061A727 /* ActionSheetCustomPickerDelegate.h */,
+				730F902320EEFC8E0061A727 /* ActionSheetDatePicker.h */,
+				730F901920EEFC8E0061A727 /* ActionSheetDatePicker.m */,
+				730F902A20EEFC8E0061A727 /* ActionSheetDistancePicker.h */,
+				730F901F20EEFC8E0061A727 /* ActionSheetDistancePicker.m */,
+				730F902820EEFC8E0061A727 /* ActionSheetLocalePicker.h */,
+				730F901B20EEFC8E0061A727 /* ActionSheetLocalePicker.m */,
+				730F901D20EEFC8E0061A727 /* ActionSheetMultipleStringPicker.h */,
+				730F902620EEFC8E0061A727 /* ActionSheetMultipleStringPicker.m */,
+				730F902920EEFC8E0061A727 /* ActionSheetPicker.h */,
+				730F901820EEFC8E0061A727 /* ActionSheetStringPicker.h */,
+				730F902420EEFC8E0061A727 /* ActionSheetStringPicker.m */,
+				730F901E20EEFC8E0061A727 /* DistancePickerView.h */,
+				730F902520EEFC8E0061A727 /* DistancePickerView.m */,
+				730F901A20EEFC8E0061A727 /* SWActionSheet.h */,
+				730F902220EEFC8E0061A727 /* SWActionSheet.m */,
+			);
+			path = Pickers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		730F8FEC20EEF6610061A727 /* HighlightrSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 730F900320EEF6630061A727 /* Build configuration list for PBXNativeTarget "HighlightrSample" */;
+			buildPhases = (
+				730F8FE920EEF6610061A727 /* Sources */,
+				730F8FEA20EEF6610061A727 /* Frameworks */,
+				730F8FEB20EEF6610061A727 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7304E0BB20EF165A001EB208 /* PBXTargetDependency */,
+			);
+			name = HighlightrSample;
+			productName = HighlightrSample;
+			productReference = 730F8FED20EEF6610061A727 /* HighlightrSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		730F8FE520EEF6610061A727 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = vvveiii;
+				TargetAttributes = {
+					730F8FEC20EEF6610061A727 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 730F8FE820EEF6610061A727 /* Build configuration list for PBXProject "HighlightrSample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 730F8FE420EEF6610061A727;
+			productRefGroup = 730F8FEE20EEF6610061A727 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 730F900720EEF66C0061A727 /* Products */;
+					ProjectRef = 730F900620EEF66C0061A727 /* HighlightrObjC.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				730F8FEC20EEF6610061A727 /* HighlightrSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		730F900C20EEF66C0061A727 /* Highlightr.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Highlightr.framework;
+			remoteRef = 730F900B20EEF66C0061A727 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		730F900E20EEF66C0061A727 /* Highlightr.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Highlightr.framework;
+			remoteRef = 730F900D20EEF66C0061A727 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		730F8FEB20EEF6610061A727 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				730F903720EF06CC0061A727 /* Samples in Resources */,
+				7304E0BF20EF28E2001EB208 /* sampleCode.txt in Resources */,
+				730F8FFA20EEF6630061A727 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		730F8FE920EEF6610061A727 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				730F902D20EEFC8E0061A727 /* ActionSheetDistancePicker.m in Sources */,
+				730F903120EEFC8E0061A727 /* DistancePickerView.m in Sources */,
+				730F8FF520EEF6610061A727 /* ViewController.m in Sources */,
+				730F903320EEFC8E0061A727 /* AbstractActionSheetPicker.m in Sources */,
+				730F902C20EEFC8E0061A727 /* ActionSheetLocalePicker.m in Sources */,
+				730F902F20EEFC8E0061A727 /* SWActionSheet.m in Sources */,
+				730F903220EEFC8E0061A727 /* ActionSheetMultipleStringPicker.m in Sources */,
+				730F902B20EEFC8E0061A727 /* ActionSheetDatePicker.m in Sources */,
+				730F900020EEF6630061A727 /* main.m in Sources */,
+				730F903020EEFC8E0061A727 /* ActionSheetStringPicker.m in Sources */,
+				730F8FF220EEF6610061A727 /* AppDelegate.m in Sources */,
+				730F902E20EEFC8E0061A727 /* ActionSheetCustomPicker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7304E0BB20EF165A001EB208 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Highlightr;
+			targetProxy = 7304E0BA20EF165A001EB208 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		730F900120EEF6630061A727 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		730F900220EEF6630061A727 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		730F900420EEF6630061A727 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HighlightrSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vvveiii.highlightr.HighlightrSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		730F900520EEF6630061A727 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HighlightrSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vvveiii.highlightr.HighlightrSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		730F8FE820EEF6610061A727 /* Build configuration list for PBXProject "HighlightrSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				730F900120EEF6630061A727 /* Debug */,
+				730F900220EEF6630061A727 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		730F900320EEF6630061A727 /* Build configuration list for PBXNativeTarget "HighlightrSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				730F900420EEF6630061A727 /* Debug */,
+				730F900520EEF6630061A727 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 730F8FE520EEF6610061A727 /* Project object */;
+}
